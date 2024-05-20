@@ -1,7 +1,7 @@
 import React from 'react'
-import imagenes2s from '.../images/imagenes2';
+import imagenes2s from '../images/imagenes2.jpg'
 
-const imagenes2 = () => {
+const Imagenes2 = () => {
   return (
     <div>
         <img src= {imagenes2s} alt='hola mundo'/>
@@ -9,4 +9,4 @@ const imagenes2 = () => {
   )
 }
 
-export default imagenes2
+export default Imagenes2

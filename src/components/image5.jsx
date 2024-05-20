@@ -1,15 +1,10 @@
-import React from "react";
+import React from 'react'
 import image5s from '../images/image5.jpg'
 
-
-const image5 = () => {
-return (
-<div>
-
-<img src={image5s} alt="hola mundo" />
-
-</div>
-)
+const Image5 = () => {
+  return (
+    <img src= {image5s} alt='hola mundo'/>
+  )
 }
 
-export default image5
+export default Image5

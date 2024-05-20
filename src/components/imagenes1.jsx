@@ -1,12 +1,12 @@
 import React from 'react'
-import imagenes1s from '../images/imagenes1.jpg'
+import Imagen1s from '../images/imagenes1.jpg'
 
-const imagenes1 = () => {
+const Imagenes1 = () => {
   return (
     <div>
-        <img src ={imagenes1s} alt = "chico escribiendo"/>
-        </div>
+    <img src={Imagen1s} alt="hola mundo"/>
+    </div>
   )
 }
 
-export default imagenes1
+export default Imagenes1

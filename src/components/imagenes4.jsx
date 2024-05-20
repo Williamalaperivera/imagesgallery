@@ -1,12 +1,12 @@
-import React from 'react';
-import imagenes4s from '../images/imagenes4.jpg'; // Asegúrate de que la ruta al archivo sea correcta
+import React from 'react'
+import Imagenes4s from '../images/imagenes4.jpg'
 
-function imagenes4 () {
+const Imagenes4 = () => {
   return (
     <div>
-      <img src={imagenes4s} alt="chica escribiendo" />
+    <img src= {Imagenes4s} alt="hola mundo"/>
     </div>
-  );
+  )
 }
 
-export default imagenes4;
+export default Imagenes4

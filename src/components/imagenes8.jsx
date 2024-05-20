@@ -1,10 +1,12 @@
-import React from "react";
-const imagenes8 = () => {
-return (
+import React from 'react';
+import imagenes8s from '../images/imagenes8.jpg';
+
+const Imagenes8 = () => {
+  return (
     <div>
-
+    <img src={imagenes8s} alt='hola mundo' />
     </div>
-)
-
+  );
 }
-export default imagenes8
+
+export default Imagenes8;
