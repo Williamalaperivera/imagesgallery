@@ -1,10 +1,10 @@
 import React from 'react'
-import imagenes2s from '../images/imagenes2.jpg'
+import Imagenes2s from './Imagenes1';
 
 const Imagenes2 = () => {
   return (
     <div>
-        <img src= {imagenes2s} alt='hola mundo'/>
+    <img src= {Imagenes2s} alt="hola mundo"/>
     </div>
   )
 }
