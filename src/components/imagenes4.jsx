@@ -1,8 +1,10 @@
 import React from 'react'
-import imagenes4s from '../images/Mar4.png'
+import Imagenes4s from '../images/Mar4.png'
 const imagenes4 = () => {
   return (
-    <img src= {imagenes4s} alt='hola mundo'/>
+    <div className='container'>
+    <img src= {Imagenes4s} alt='hola mundo'className='image'/>
+    </div>
   )
 }
 
