@@ -10,8 +10,9 @@ function App() {
   
       <Routes>
         
-        <Route path="/imagenes4" element={<Imagenes4 />} />
-        <Route path="/imagenes1" element={<Imagenes1 />} />
+        <Route path="/imagenes4" element={<Imagenes4/>}/>
+        <Route path="/imagenes1" element={<Imagenes1/>}/>
+
       </Routes>
       <Navigation />
     </Router>

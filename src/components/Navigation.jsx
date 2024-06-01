@@ -11,14 +11,14 @@ const Navigation = () => {
       <Link to="/imagenes1">
         <figure>
         <Imagenes1/>
-          <figcaption>Hola mundo segunda foto</figcaption>
+          <figcaption>Hola mundo primera foto</figcaption>
         </figure>
       </Link>
 
       <Link to="/imagenes4">
         <figure>
           <Imagenes4/>
-          <figcaption>Hola mundo tercera foto</figcaption>
+          <figcaption>Hola mundo segunda foto foto</figcaption>
         </figure>
       </Link>
 
